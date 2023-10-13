@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header .main-box {
+  position: relative;
+}
+header .main-box img {
+  max-width: 100%;
+  width: 100%;
+  opacity: 0.6;
+}
+header .main-box h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  white-space: nowrap;
+  font-size: 10vw;
+  transform: translate(-50%, -35%);
+  border: 1px solid white;
+  padding: 1rem;
+  color: #737373;
+  font-family: "Montserra", sans-serif;
+}
+@media (max-width: 300px) {
+  header .main-box h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+  }
+}
+header .main-box h3 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  white-space: nowrap;
+  font-size: 3vw;
+  color: white;
+  font-family: "Montserra", sans-serif;
+  border-bottom: 2px solid white;
+}
+@media (max-width: 400px) {
+  header .main-box h3 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+  }
+}
+
+.creavity {
+  position: relative;
+  height: 40vh;
+  background-color: #e5e5e5;
+}
+.creavity .box {
+  height: 55%;
+  width: 100%;
+  position: absolute;
+  bottom: 80%;
+  transform: skewY(-4deg);
+  background-color: #e5e5e5;
+}
+@media (max-width: 400px) {
+  .creavity .box {
+    position: absolute;
+    bottom: 65%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
